@@ -14,6 +14,7 @@ def hangmanGame():
         blank_list.append('_')
 
     print(hangmanLogo)
+    print(blank_list)
     guessed_list=[]
     steps=0
     while steps<6:
